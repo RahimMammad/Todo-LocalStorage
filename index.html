@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LocalStorage Form</title>
+</head>
+<body>
+  <form id="userForm">
+    <label for="email">Email:</label>
+    <input type="email" id="email" required>
+    <br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" required>
+    <br>
+    <button type="button" id="submitBtn">Submit</button>
+  </form>
+
+  <div id="userList">
+    <h2>User List</h2>
+    <ul id="userDataList"></ul>
+  </div>
+
+  <button type="button" id="editBtn">Edit</button>
+  <button type="button" id="deleteBtn">Delete</button>
+
+  <script src="./script.js"></script>
+</body>
+</html>
